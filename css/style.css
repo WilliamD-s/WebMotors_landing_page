@@ -529,8 +529,35 @@ table.customTable {
     html, body {
         overflow-x: hidden;
     }
-    .navbar-items li {
-        font-size: 10px;
-        margin-left: 5px;
+    .navbar-items li a {
+        font-size: 12px;
+        margin-left: -45px;
+        padding-right: 21px;
+    }
+
+    .default-btn {
+        padding: 15px 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .motors {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-container input, .contact-container textarea {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;   
     }
 }
